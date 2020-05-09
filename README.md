@@ -1,7 +1,7 @@
 
 
 # [Machine Learning Algorithms]
-My journey into Machine Learning started with the essentials of Python.I gradually moved towards to concepts of advanced algorithms and, finally moved into the cores of Machine Learning. With my key focus being the live projects,I dive deeper into the fundamentals of Regression Techniques and Neural Networks enabling the essential skills required in optimizing solutions to the real-world problems. It was just a matter of some time before I actually begin building intelligent systems, working on AI algorithms and data crunching. 
+My journey into Machine Learning started with the essentials of Python. I gradually moved towards to concepts of advanced algorithms and, finally moved into the cores of Machine Learning. With my key focus being the live projects, I dive deeper into the fundamentals of Regression Techniques and Neural Networks enabling the essential skills required in optimizing solutions to the real-world problems. It was just a matter of some time before I actually begin building intelligent systems, working on AI algorithms and data crunching. 
  
 ** Contents**
 -------------------
