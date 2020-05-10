@@ -59,7 +59,7 @@ My journey into Machine Learning started with the essentials of Python. I gradua
 - Building AI for Games
 
 ### Libraries, Frameworks used
-- Most of the codes are build from scratch but we will also teach you how to work with
+- Most of the codes are build from scratch using-
 the following libraries.
 1. Pandas (Data Handling)
 2. Matplotlib (Data Visualisation)
