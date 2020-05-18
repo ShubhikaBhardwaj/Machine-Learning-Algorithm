@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
+import sys
 
 def SegmentImage(im,k,name):
     #im=cv2.imread('Beach.jpg') #reads image in BGR format
@@ -26,14 +27,30 @@ def SegmentImage(im,k,name):
     new_img=np.zeros((shape1*shape2,3),dtype='uint8')
 
     for i in range(new_img.shape[0]):
-    new_img[i]=colors[km.labels_[i]]
-    new_img=new_img.reshape((original_shape))
-    plt.imshow(new_img)
-    plt.title('Segmented Image')
-    plt.show()  
-
+        new_img[i]=colors[km.labels_[i]]
+        new_img=new_img.reshape((original_shape))
+    
     new_img_converted=cv2.cvtColor(new_img,cv2.COLOR_RGB2BGR)
     cv2.imwrite(name,new_img_converted)
+
+
+def getSegmentedImageDocument(inputImage,k,outputImage):
+    im=cv2.imread('Beach.jpg') #reads image in BGR format
+    SegmentImage(im,k,outputImage)
+
+
+
+# Read command line arguments
+inputImage = sys.argv[1]
+k =sys.argv[2]
+outputImage = sys.argv[3]
+  
+getSegmentedImageDocument(inputImage,k,outputImage)
+
+
+
+
+
 
 
 
