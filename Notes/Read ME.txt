@@ -1,4 +1,5 @@
 These are the notes of various ML algorithms. 
+-Neural Networks
 -Bayes Theorem
 -Multinomial Naive Bayes
 -Closed Form Solution (Linear Regression)
