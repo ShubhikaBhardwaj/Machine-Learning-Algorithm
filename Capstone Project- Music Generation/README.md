@@ -5,10 +5,10 @@
 
 **<h2>About the Project</h2>**
 
-In this project,I have generated unique melodious music from piano notes & chords. This is achieved by implementing a [Deep Learning Algorithm](https://towardsdatascience.com/what-is-deep-learning-and-how-does-it-work-2ce44bb692ac) called **Recurrent Neural Networks with LSTM** and
+In this project, I have generated unique melodious music from piano notes & chords. This is achieved by implementing a [Deep Learning Algorithm](https://towardsdatascience.com/what-is-deep-learning-and-how-does-it-work-2ce44bb692ac) called **Recurrent Neural Networks with LSTM** and
 **Dense layers** for sequential music generation.
   
-In this process of training the LSTM model,I have employed a vast training data set consisting of **60,498** music
+In this process of training the LSTM model, I have employed a vast training data set consisting of **60,498** music
 elements and **5,474,663** trainable parameters. 
 
 The training data is required to be in MIDI format for convienent parsing with the help of Music21 Library.
