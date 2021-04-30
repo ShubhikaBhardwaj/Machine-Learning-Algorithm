@@ -11,7 +11,7 @@ In this project, I have generated unique melodious music from piano notes & chor
 In this process of training the LSTM model, I have employed a vast training data set consisting of **60,498** music
 elements and **5,474,663** trainable parameters. 
 
-The training data is required to be in MIDI format for convienent parsing with the help of Music21 Library.
+The training data is required to be in MIDI format for convenient parsing with the help of Music21 Library.
 
 
 
